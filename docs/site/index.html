@@ -1,9 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Coursera!</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>module2-solution  Our Menu</title>
+<style>
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+div {
+  border: 1px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  float: left;
+  padding: 10px;
+}
+
+/* Title position */
+.section-title {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    }
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+
+/********** desktop version **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+  }
+}
+
+
+/********** tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+}
+
+
+/********** cellphone version **********/
+@media (max-width: 776px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+}
+
 </head>
-<body>
+<body> {
+	font-size: 120%;
+}
+</style>
 <h1>Hello Coursera!</h1>
+
+<div class="row">
+  <div class="col-lg-3 col-md-6"><p class="section-title">Chicken</p></div>
+  <div class="col-lg-3 col-md-6"><p class="section-title">Beef</p></div>
+  <div class="col-lg-3 col-md-6"><p class="section-title">Sushi</p></div>
+</div>
+
 </body>
 </html>
