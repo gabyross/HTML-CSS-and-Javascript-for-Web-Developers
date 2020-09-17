@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+/*****Navbar style*******/
+.container-fluid{
+	margin: 3px;
+	padding: 3px;
+}
+
+.navbar{
+	border-radius: 0px;
+	background-color: rgba(0,0,0,0.8);
+	color: black;
+}
+
+#header-nav { 
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 0;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(150, 150, 150);
+	text-decoration-color: black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  color: solid black;
+}
+
+.navbar .navbar-brand {
+	padding: 5px;
+	color: #000000;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 5px;
+	padding-left: 25px;
+	color: solid black;
+}
+
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+/*****Navbar style*******/
+
+
+/****Content Style*******/
+
+body {
+	color: #000000;
+	font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+	margin: 0px;
+	font-size: 14px;
+    line-height: 1.42;
+    background-color: #FFFFFF;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#section-title {
+	font-size: 20px;
+    font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.section {
+	font-size: 16px;
+	text-align: justify;
+	padding: 20px;
+	margin: 40px;
+	position: relative;
+	text-align: justify;
+	background-color: rgb(150, 150, 150);
+}
+
+
+.itemBar {
+	width: 100%;
+	margin: 0;
+	font-color: black;
+	background-color: white;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: block;
+}
+
+content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/****Content Style*******/
