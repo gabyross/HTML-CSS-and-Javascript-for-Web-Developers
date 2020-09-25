@@ -1,6 +1,6 @@
 (function (window) {
 
-	var byeSpeakerr = {};
+	var byeSpeaker = {};
 
 	var speakWord = "Good Bye";
 
